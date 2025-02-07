@@ -14,9 +14,9 @@ function execute(url, page) {
 
     if (!response.ok) return null;
 
-    let data = [];
+    let result = [];
     response.json().forEach(e => {
-        data.push({
+        result.push({
             name: e.title,
             link: COMIC + e.slug,
             cover:  IMG + e.md_covers[0].b2key,
@@ -24,5 +24,5 @@ function execute(url, page) {
         })
     });
 
-    return Response.success(data, Number(page) + 1);
+    return Response.success(result, Number(page) + 1);
 }

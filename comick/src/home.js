@@ -1,7 +1,7 @@
 load('config.js');
 
 function execute() {
-    const data = [
+    const homePages = [
         { title: "Latest", sort: "uploaded" },
         { title: "New", sort: "created_at" },
         { title: "Popular", sort: "user_follow_count" },
@@ -9,6 +9,6 @@ function execute() {
     ];
 
     return Response.success(
-        data.map(x => ({ title: x.title, input: `${SEARCH}?sort=${x.sort}`, script: "gen.js" }))
+        homePages.map(x => ({ title: x.title, input: `${SEARCH}?sort=${x.sort}`, script: "gen.js" }))
     );
 }

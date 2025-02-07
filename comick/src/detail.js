@@ -26,5 +26,4 @@ function execute(url) {
         description: data.comic.desc,
         genres: genres
     });
-
 }
