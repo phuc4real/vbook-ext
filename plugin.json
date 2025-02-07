@@ -1,0 +1,19 @@
+{
+    "metadata": {
+        "author": "phuc4real",
+        "description": "Nothing here"
+    },
+    "data": [
+        {
+            "name": "ComicK",
+            "author": "phuc4real",
+            "path": "https://raw.githubusercontent.com/phuc4real/vbook-ext/main/comick/plugin.zip",
+            "version": 1,
+            "source": "https://comick.io",
+            "icon": "https://raw.githubusercontent.com/phuc4real/vbook-ext/main/comick/icon.png",
+            "description": "Fast free reader and a Big database for comics (manhwa, manhua, manga)",
+            "type": "comic",
+            "locale": "en_US"
+          }
+    ]
+}

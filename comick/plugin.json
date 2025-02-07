@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "ComicK",
+    "author": "phuc4real",
+    "version": 1,
+    "source": "https://comick.io",
+    "regexp": "(www.)?comick.*?/comic/[0-9a-z-]+/?$",
+    "description": "Fast free reader and a Big database for comics (manhwa, manhua, manga)",
+    "local": "en_US",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
